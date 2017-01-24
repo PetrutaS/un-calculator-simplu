@@ -32,7 +32,7 @@ if(isset($_POST['operator'])) {
 		$rezultat=$_POST['element1']-$_POST['element2'];
 	} elseif($_POST['operator']=='ori') {
 		$rezultat=$_POST['element1']*$_POST['element2'];
-	} elseif($_POST['operator']=='ori') {
+	} elseif($_POST['operator']=='impartit') {
 		$rezultat=$_POST['element1']/$_POST['element2'];
 	}
 	echo "<tr><td colspan=3><input type=button readonly value=".$_POST['element1'];
